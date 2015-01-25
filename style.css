@@ -1,8 +1,22 @@
 body {
-font-family: times;
-font-size: 18px;
-margin-top:30px;
-margin-left:20px;
+  font-family: times;
+  font-size: 21px;
+  line-height: 1.2;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h1 a {
+  border: none;
+}
+
+a {
+  color: black;
+  border-bottom: 1px solid black;
+  text-decoration: none;
 }
 
 .newfont {
@@ -17,10 +31,15 @@ padding-bottom: 2px;
 margin-left: 0px;
 }
 
-.title_special {
-border-bottom: 1px solid;
-padding-bottom: 2px;
-margin-left: 30px;
+.title-block,
+.about-block,
+.content-block {
+  margin: 1em 0 0 1em;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
 }
 
 .dottedline {
@@ -35,4 +54,14 @@ img {
 .picture-group {
 width: 680px;
 float: left;
+}
+
+.caption {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+.index {
+  line-height: 1.9;
 }
